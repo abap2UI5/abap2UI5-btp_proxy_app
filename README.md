@@ -21,3 +21,10 @@
 ##### 3. Launch your abap2UI5 Apps with SAP Mobile Start
 <img width="650" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/84805633-bab9-4b51-ad02-d233fbe172f8"><br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
+
+#### Installation
+...
+
+#### FAQ
+* check out the [**documentation**](https://github.com/abap2UI5/abap2UI5-documentation) for installation & configuration guidelines
+* your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/integration-business_technology_platform/issues)
