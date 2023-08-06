@@ -9,16 +9,16 @@
 
 #### Use Cases
 
-##### Connect your ABAP System to SAP BTP and access your abap2UI5 Apps from anywhere
+##### 1 - Connect your ABAP System to SAP BTP and access your abap2UI5 Apps from anywhere
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/769c25b4-07e3-49d1-a754-a5d4835607e4">
 <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
 
-##### Integrate your abap2UI5 Apps with the SAP Build Workzone Launchpad
+##### 2 - Integrate your abap2UI5 Apps with the SAP Build Workzone Launchpad
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/78f4c199-ce88-402e-b99b-524298991255"><br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/0267f17a-b2ab-4e69-937f-24f2204f4b13">
 
-##### Launch your abap2UI5 Apps using SAP Mobile Start
+##### 3 - Launch your abap2UI5 Apps using SAP Mobile Start
 <img width="650" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/84805633-bab9-4b51-ad02-d233fbe172f8"><br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
 
