@@ -15,12 +15,12 @@
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
 
 ##### 2 - Integrate your abap2UI5 Apps with the SAP Build Workzone Launchpad
-<img width="573" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/475b9196-8f06-4137-9e1b-40eba9e352ab">
+<img width="573" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/8dace28a-b0cb-41a8-8c36-694fc0e6ff4b">
 <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/0267f17a-b2ab-4e69-937f-24f2204f4b13">
 
 ##### 3 - Launch your abap2UI5 Apps using SAP Mobile Start
-<img width="614" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/fe7606c4-c04f-4b27-a168-e24ac0f58e49"><br>
+<img width="614" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/7fc0a79c-b013-4bc8-b97e-1d6804bccce6"><br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
 
 #### Installation
