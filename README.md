@@ -24,7 +24,7 @@
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
 
 #### Installation
-* install the odata service, use the [ODATA_CDS](https://github.com/abap2UI5/ext-business_technology_platform/tree/odata_cds_abap_cloud) branch for abap cloud systems and use the [ext-fiori_launchpad](https://github.com/abap2UI5/ext-business_technology_platform) repository for on-premise systems
+* install the odata service, use the [ODATA_CDS](https://github.com/abap2UI5/ext-business_technology_platform/tree/odata_cds_abap_cloud) branch for abap cloud systems and use the [ext-fiori_launchpad](https://github.com/abap2UI5/ext-fiori_launchpad_on_premise) repository for on-premise systems
 * go to the [UI5_APP](https://github.com/abap2UI5/ext-business_technology_platform/tree/ui5_app) branch and deploy the UI5 app to your Business Technology Platform
 
 ### FAQ
