@@ -14,7 +14,7 @@
 <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
 
-##### 2 - Integrate your abap2UI5 Apps with the SAP Build Workzone Launchpad
+##### 2 - Integrate your abap2UI5 Apps with SAP Build Workzone Launchpad
 <img width="573" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/8dace28a-b0cb-41a8-8c36-694fc0e6ff4b">
 <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/0267f17a-b2ab-4e69-937f-24f2204f4b13">
