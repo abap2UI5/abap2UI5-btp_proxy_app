@@ -26,7 +26,9 @@
 #### Installation
 * install the odata service, use the [ODATA_CDS](https://github.com/abap2UI5/ext-business_technology_platform/tree/odata_cds_abap_cloud) branch for abap cloud systems and use the [ext-fiori_launchpad](https://github.com/abap2UI5/ext-fiori_launchpad_on_premise) repository for on-premise systems
 * go to the [UI5_APP](https://github.com/abap2UI5/ext-business_technology_platform/tree/ui5_app) branch and deploy the UI5 app to your Business Technology Platform
+* configure SAP Build Workzone Launchpad Service and SAP Mobile Start
 
+Check the [documentation](https://github.com/abap2UI5/abap2UI5-documentation) for detailed installation guidelines.
 ### FAQ
 * check out the [**documentation**](https://github.com/abap2UI5/abap2UI5-documentation) for installation & configuration guidelines
 * your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/integration-business_technology_platform/issues)
