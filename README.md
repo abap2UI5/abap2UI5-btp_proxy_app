@@ -30,5 +30,4 @@
 
 Check the [documentation](https://github.com/abap2UI5/abap2UI5-documentation) for detailed installation guidelines.
 ### FAQ
-* check out the [**documentation**](https://github.com/abap2UI5/abap2UI5-documentation) for installation & configuration guidelines
-* your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/integration-business_technology_platform/issues)
+* your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/ext-business_technology_platform/issues)
