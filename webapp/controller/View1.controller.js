@@ -16,6 +16,8 @@ sap.ui.define([
 
         sap.z2ui5 = {};
         sap.z2ui5.pathname = this.getView().getModel().sServiceUrl;
+        //i will never understand the / magic
+        sap.z2ui5.pathname += `/`;
         try {
           sap.z2ui5.oParent = this.oView.getParent();
           if (sap.z2ui5.oParent.getMetadata().getName() !== 'sap.m.App') {
