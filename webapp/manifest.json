@@ -5,7 +5,7 @@
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
-      "version": "0.0.2"
+      "version": "0.0.3"
     },
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
@@ -17,13 +17,9 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/sap/opu/odata/sap/z2ui5_odata_srv/",
+        "uri": "sap/bc/ZTEST",
         "type": "OData",
-        "settings": {
-          "annotations": [],
-          "localUri": "localService/metadata.xml",
-          "odataVersion": "2.0"
-        }
+        "settings": {  }
       }
     },
     "crossNavigation": {
