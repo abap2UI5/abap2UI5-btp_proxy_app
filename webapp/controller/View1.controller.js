@@ -9,7 +9,11 @@ sap.ui.define([
 
         return Controller.extend("zabap2ui5.controller.View1", {
             onInit: function () {                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                sap.ui.core.BusyIndicator.show();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                sap.ui.core.BusyIndicator.show();  
+                
+
+
+
               },                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                        
               onAfterRendering: function () {                                                                                                                                                                                                                          
