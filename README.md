@@ -28,7 +28,7 @@ npm run deploy
 <br>
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
 
-##### 2/3 - Integrate your abap2UI5 Apps with SAP Build Workzone Launchpad [(here)](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/04_build_workzone_configuration.md)
+##### 2/3 - Integrate your abap2UI5 Apps to SAP Build Workzone Launchpad [(here)](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/04_build_workzone_configuration.md)
 <img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/1def3a77-1887-4807-be6f-619d1c2526ae">
 <br>
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/0267f17a-b2ab-4e69-937f-24f2204f4b13">
