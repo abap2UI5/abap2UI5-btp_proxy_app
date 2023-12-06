@@ -1,10 +1,10 @@
-## abap2UI5 Extension - SAP Business Technology Platform <img src="https://github.com/abap2UI5/abap2UI5/assets/102328295/52ac0bb6-a219-4e9d-9e4f-62698dab3063" width="30">
+## abap2UI5 Integration - SAP Business Technology Platform <img src="https://github.com/abap2UI5/abap2UI5/assets/102328295/52ac0bb6-a219-4e9d-9e4f-62698dab3063" width="30">
 
 ### Key Features
-* Integration of abap2UI5 Apps with SAP Business Technology Platform and call abap2UI5 Apps through various SAP Services, including SAP BTP, SAP Workzone Launchpad and SAP Mobile Start
-* Deploy this UI5 App to your SAP BTP HTML5 Repository
-* The abap2UI5 framework & apps can remain unchanged in your backend systems, while being accessed remotely via HTTP
-* Compatible Backend Systems include SAP NetWeaver (v.702 or higher), S/4 On-Premise, S/4 Private Cloud & S/4 Public Cloud
+* Deploy this UI5 App to your SAP BTP HTML5 Repository. It acts as a proxy, routing all communication to your backend system
+* The framework, along with all abap2UI5 apps, are accessed remotely via HTTP and can remain unchanged in your backend systems
+* Enable calling abap2UI5 Apps through various SAP Services, including SAP BTP, SAP Workzone Launchpad, and SAP Mobile Start
+* Compatible with Backend Systems such as SAP NetWeaver (version 7.02 or higher), S/4HANA On-Premise, S/4HANA Private Cloud, and S/4HANA Public Cloud
 
 ### Installation
 
