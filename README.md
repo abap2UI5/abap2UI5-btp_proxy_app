@@ -29,7 +29,7 @@ _**Note II:** Fill in the complete path of the HTTP endpoint here, the frontend 
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
 
 ##### 2/3 - Integrate your abap2UI5 Apps with SAP Build Workzone Launchpad [(here)](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/04_build_workzone_configuration.md)
-<img width="573" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/8dace28a-b0cb-41a8-8c36-694fc0e6ff4b">
+<img width="600" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/2f04cd13-2800-4b43-ae3d-6f88c96770ac">
 <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/0267f17a-b2ab-4e69-937f-24f2204f4b13">
 
