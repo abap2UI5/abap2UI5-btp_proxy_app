@@ -26,7 +26,8 @@ npm run deploy
 ##### 1/3 - Connect your ABAP System to SAP BTP and access your abap2UI5 Apps from anywhere
 <img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/110c0810-1a57-4a16-b8c2-c88d35be7002">
 <br>
-<img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
+<img width="600" alt="Bildschirmfoto 2023-12-06 um 10 46 55" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/1fd174a8-86e8-4303-88b8-76b20df5a087">
+
 
 ##### 2/3 - Integrate your abap2UI5 Apps to SAP Build Workzone Launchpad [(here)](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/04_build_workzone_configuration.md)
 <img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/1def3a77-1887-4807-be6f-619d1c2526ae">
