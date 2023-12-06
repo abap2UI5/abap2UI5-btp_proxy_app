@@ -8,7 +8,7 @@
 
 #### Installation
 ##### (1/2) Deploying the Application to SAP BTP: <br>
-Use Visual Studio Code or Business Application Studio for deployment:
+Use Visual Studio Code e.g. for deployment:
 ```
 git clone
 cf login
