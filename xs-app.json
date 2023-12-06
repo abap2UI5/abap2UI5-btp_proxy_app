@@ -5,7 +5,7 @@
     {
       "source": "^/sap/(.*)$",
       "target": "/sap/$1",
-      "destination": "s4_on_premise",
+      "destination": "BACKEND_ABAP2UI5",
       "authenticationType": "xsuaa",
       "csrfProtection": false
     },
