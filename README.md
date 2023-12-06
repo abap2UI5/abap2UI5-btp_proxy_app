@@ -1,7 +1,7 @@
 ## abap2UI5 Integration - SAP Business Technology Platform <img src="https://github.com/abap2UI5/abap2UI5/assets/102328295/52ac0bb6-a219-4e9d-9e4f-62698dab3063" width="30">
 
 #### Key Features
-* **UI5 App Deployment:** Deploy this UI5 App to your SAP BTP HTML5 Repository. It functions as a proxy, managing all communication with your backend system and running abap2UI5 apps on BTP<br>
+* **UI5 Proxy App:** Deploy this UI5 App to your SAP BTP HTML5 Repository. It functions as a proxy, managing all communication with your backend system and running abap2UI5 apps on BTP<br>
 * **User-Friendly:** Launch different backend apps simply by adjusting the start parameter "app_start"<br>
 * **Framework Consistency:** The framework and all abap2UI5 apps can remain unchanged in your ABAP backend system<br>
 * **Service Integration:** Run abap2UI5 apps with SAP Build Workzone Launchpad & SAP Build Mobile Start<br>
