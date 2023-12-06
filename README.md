@@ -34,8 +34,9 @@ _**Note II:** Fill in the complete path of the HTTP endpoint here, the frontend 
 <img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/0267f17a-b2ab-4e69-937f-24f2204f4b13">
 
 ##### 3/3 - Launch your abap2UI5 Apps using SAP Mobile Start [(here)](https://github.com/abap2UI5/abap2UI5-documentation/blob/main/docs/ext-business_technology_platform/05_mobile_start_configuration.md)
-<img width="614" alt="image" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/7fc0a79c-b013-4bc8-b97e-1d6804bccce6"><br>
-<img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
+<img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/e895e772-0705-425c-9fb9-deed7d304642">
+<br>
+<img width="600" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/d8caa3cb-7bb0-4a96-bc32-086c6238e22f">
 
 #### FAQ
 * your comments, questions, wishes and bugs are welcome, please create an [**issue**](https://github.com/abap2UI5/ext-business_technology_platform/issues)
