@@ -2,8 +2,8 @@
 
 #### Key Features
 * **UI5 App Deployment:** Deploy this UI5 App to your SAP BTP HTML5 Repository. It functions as a proxy, managing all communication with your backend system and running abap2UI5 apps on BTP<br>
+* **User-Friendly:** Launch different backend apps simply by adjusting the start parameter "app_start"<br>
 * **Framework Consistency:** The framework and all abap2UI5 apps can remain unchanged in your ABAP backend system<br>
-* **User-Friendly:** Launch different backend apps simply by adjusting the start parameter "app_start"
 * **Service Integration:** Run abap2UI5 apps with SAP Build Workzone Launchpad & SAP Build Mobile Start<br>
 * **Broad System Compatibility:** Compatible with all ABAP Backend Systems (SAP NetWeaver version 7.02 or higher, S/4HANA On-Premise, S/4HANA Private Cloud, and S/4HANA Public Cloud)
 
