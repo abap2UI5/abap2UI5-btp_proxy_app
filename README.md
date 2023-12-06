@@ -7,18 +7,19 @@
 * Compatible with Backend Systems such as SAP NetWeaver (version 7.02 or higher), S/4HANA On-Premise, S/4HANA Private Cloud, and S/4HANA Public Cloud
 
 ### Installation
-
-##### (1/2) Set Up a Destination in SAP BTP: <br>
-<img width="600" alt="Bildschirmfoto 2023-12-05 um 13 47 18" src="https://github.com/abap2UI5/ext-business_technology_platform/assets/102328295/677bdbba-7a0a-4e4a-8a64-b3c328a818ff"><br><br>
-_Note I: Ensure that the HTTP Service in the backend system is created under the ICF Node sap/... to maintain correct routing_ <br>
-_Note II: Ensure that the Destination has the name "BACKEND_ABAP2UI5" [(here)](https://github.com/abap2UI5/abap2UI5-btp_proxy_app/blob/e882d732eb509ce65f38e224112da8d8120b0f22/xs-app.json#L8)_ <br>
-_Note III: Fill in the complete path of the HTTP endpoint here, the frontend does not contain any path information_ <br>
-##### (2/2) Deploy your Application: <br>
+##### (1/2) Deploy this Application to SAP BTP: <br>
+Use VSCode or BAS to deploy this repository:
 ```
-cf login
+git clone
+cf login -a
 npm run build:mta
 npm run deploy
 ```
+##### (2/2) Set Up a Destination in SAP BTP: <br>
+<img width="600" alt="Bildschirmfoto 2023-12-06 um 09 03 21" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/4de0fead-c95a-4100-a5c1-16ea81dc547e"><br>
+_**Note I:** Ensure that the HTTP Service in the backend system is created under the ICF Node sap/... and that the Destination has the name "BACKEND_ABAP2UI5" [(here)](https://github.com/abap2UI5/abap2UI5-btp_proxy_app/blob/e882d732eb509ce65f38e224112da8d8120b0f22/xs-app.json#L8) to maintain correct routing_ <br>
+_**Note II:** Fill in the complete path of the HTTP endpoint here, the frontend does not contain any path information (example: https://<<system>>/sap/bc/ZTEST)_ <br>
+
 
 ### Integration Scenarios
 
