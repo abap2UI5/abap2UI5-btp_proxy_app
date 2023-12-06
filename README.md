@@ -11,7 +11,7 @@
 Use VSCode or BAS to deploy this repository:
 ```
 git clone
-cf login -a
+cf login
 npm run build:mta
 npm run deploy
 ```
