@@ -24,7 +24,7 @@ _**Note II:** Fill in the complete path of the HTTP endpoint here, the frontend 
 #### Integration Scenarios
 
 ##### 1/3 - Connect your ABAP System to SAP BTP and access your abap2UI5 Apps from anywhere
-<img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/769c25b4-07e3-49d1-a754-a5d4835607e4">
+<img width="500" alt="image" src="https://github.com/abap2UI5/abap2UI5-btp_proxy_app/assets/102328295/110c0810-1a57-4a16-b8c2-c88d35be7002">
 <br>
 <img width="500" alt="image" src="https://github.com/abap2UI5/integration-fiori_launchpad_on_premise/assets/102328295/356d1383-d394-49f6-9336-b33e886040a6">
 
