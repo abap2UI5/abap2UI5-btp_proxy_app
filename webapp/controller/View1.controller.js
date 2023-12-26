@@ -1,59 +1,67 @@
-sap.ui.define([
-  "sap/ui/core/mvc/Controller"
-],
-  /**
-   * @param {typeof sap.ui.core.mvc.Controller} Controller
-   */
-  function (Controller) {
-    "use strict";
+sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/BusyIndicator", "sap/ui/core/mvc/View", "sap/m/MessageBox"],
+    function (Controller, BusyIndicator, XMLView, MessageBox) {
+        "use strict";
 
-    return Controller.extend("zabap2ui5.controller.View1", {
-      onInit: function () {
-        sap.ui.core.BusyIndicator.show();
-      },
+        return Controller.extend("zabap2ui5.controller.View1", {
+            onInit() {
+                BusyIndicator.show();
+            },
 
-      onAfterRendering: function () {
+            async onAfterRendering() {
+                try {
+                    this.initializePathname();
+                    this.setParentComponent();
+                    this.setAppStartParameter();
+                    let response = await this.GetHTTP();
+                    this.displayView(response);
+                } catch (e) {
+                    MessageBox.error(e.toLocaleString());
+                }
+            },
 
-        sap.z2ui5 = {};
-        sap.z2ui5.pathname = this.getView().getModel().sServiceUrl;
-        //i will never understand the / magic
-        sap.z2ui5.pathname += `/`;
-        try {
-          sap.z2ui5.oParent = this.oView.getParent();
-          if (sap.z2ui5.oParent.getMetadata().getName() !== 'sap.m.App') {
-            sap.z2ui5.oParent = this.getView().byId(this.getView().getId() + "--app");
-          }
-        } catch (error) {
-          sap.z2ui5.oParent = this.getView().byId(this.getView().getId() + "--app");
-        }
-        try {
-          sap.z2ui5.APP_START = this.getOwnerComponent().getComponentData().startupParameters.app_start[0];
-        } catch (e) { }
+            initializePathname() {
+                sap.z2ui5 = {};
+                sap.z2ui5.pathname = this.getView().getModel().sServiceUrl + "/";
+            },
 
-        jQuery.ajax({
-          url: sap.z2ui5.pathname,
-          type: "GET",
-          dataType: "text",
-          data: "",
-          async: true,
-          contentType: "text/html; charset=utf-8",
-          success: function (data, a, s) {
-            let code = data.split('<abc/>')[1];
-            sap.ui.controller("z2ui5_dummy_controller", {});
-            let xml =
-              "<mvc:View controllerName='z2ui5_dummy_controller' xmlns='http://www.w3.org/1999/xhtml' xmlns:mvc='sap.ui.core.mvc' >" +
-              code + "</mvc:View>";
-            new sap.ui.core.mvc.View.create({
-              type: 'XML',
-              definition: xml,
-            }).then(oView => {
-              sap.z2ui5.oParent.removeAllPages();
-              sap.z2ui5.oParent.insertPage(oView);
-              sap.z2ui5.oView = oView;
-            });
-          }
-        })
+            setParentComponent() {
+                try {
+                    sap.z2ui5.oParent = this.getView().getParent();
+                    if (sap.z2ui5.oParent.getMetadata().getName() !== 'sap.m.App') {
+                        sap.z2ui5.oParent = this.getDefaultParent();
+                    }
+                } catch (error) {
+                    sap.z2ui5.oParent = this.getView().byId(this.getView().getId() + "--app");
+                }
+            },
 
-      },
+            setAppStartParameter() {
+                try {
+                    sap.z2ui5.APP_START = this.getOwnerComponent().getComponentData().startupParameters.app_start[0];
+                } catch (e) {
+                }
+            },
+
+            async GetHTTP() {
+                const response = await fetch(sap.z2ui5.pathname, { method : "GET" , headers : { "Content-Type" : "application/html" } });
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    MessageBox.error(errorText);
+                }
+                return response.text();
+            },
+
+            async displayView(data) {
+                let code = data.split('<abc/>')[1];
+                let xml = `<mvc:View xmlns='http://www.w3.org/1999/xhtml' xmlns:mvc='sap.ui.core.mvc'>${code}</mvc:View>`;
+                const oView = await XMLView.create({
+                    type: 'XML',
+                    definition: xml,
+                    controller: new Controller
+                });
+                sap.z2ui5.oParent.removeAllPages();
+                sap.z2ui5.oParent.insertPage(oView);
+                sap.z2ui5.oView = oView;
+            },
+        });
     });
-  });                                                                                                                                                                                                                                                          
